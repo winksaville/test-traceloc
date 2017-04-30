@@ -1,0 +1,22 @@
+{
+  "name": "test-traceloc",
+  "version": "0.1.0",
+  "description": "Test traceloc",
+  "main": "",
+  "repository": "http://github.com/winksaville/test-traceloc",
+  "author": "Wink Saville <wink@saville.com> (http://github.com/winksaville)",
+  "license": "MIT",
+  "dependencies": {
+    "traceloc": "https://github.com/winksaville/traceloc.git",
+    "typescript": "^2.3.2"
+  },
+  "scripts": {
+      "pret1": "tsc -p src/t1.tsconfig.json",
+      "t1": "node ./out/t1.js",
+      "pret2": "tsc -p src/t2.tsconfig.json",
+      "t2": "node ./out/t2.js",
+      "pret3": "tsc -p src/t3.tsconfig.json",
+      "t3": "node ./out/t3.js",
+      "test": "yarn t1 && yarn t2 && yarn t3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        "declaration": true,
+        "outDir": "../out"
+    },
+    "files": [
+        "t1.ts",
+        "t2.ts",
+        "t3.ts"
+    ]
+}
