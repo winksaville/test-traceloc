@@ -11,12 +11,10 @@
     "typescript": "^2.3.2"
   },
   "scripts": {
-      "pret1": "tsc -p src/t1.tsconfig.json",
-      "t1": "node ./out/t1.js",
-      "pret2": "tsc -p src/t2.tsconfig.json",
-      "t2": "node ./out/t2.js",
-      "pret3": "tsc -p src/t3.tsconfig.json",
-      "t3": "node ./out/t3.js",
-      "test": "yarn t1 && yarn t2 && yarn t3"
+    "t1": "node ./out/t1.js",
+    "t2": "node ./out/t2.js",
+    "t3": "node ./out/t3.js",
+    "pretest": "tsc -p src",
+    "test": "yarn t1 && yarn t2 && yarn t3"
   }
 }

@@ -1,10 +1,11 @@
-import { here } from "traceloc";
+import { here, ITraceLoc } from "traceloc";
 
 let LOGGING = true;
 
 function log(prompt: string) {
+    let loc: ITraceLoc; // Test explicit types are working
     if (LOGGING) {
-        let loc = here(1); // Get the location of the caller
+        loc = here(1); // Get the location of the caller
         console.log(`${prompt}: ${loc.func}:${loc.line}`);
     }
 }
