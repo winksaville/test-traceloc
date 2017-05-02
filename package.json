@@ -7,8 +7,11 @@
   "author": "Wink Saville <wink@saville.com> (http://github.com/winksaville)",
   "license": "MIT",
   "dependencies": {
-    "traceloc": "https://github.com/winksaville/traceloc.git",
+    "traceloc": "^0.3.0",
     "typescript": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.15"
   },
   "scripts": {
     "t1": "node ./out/t1.js",

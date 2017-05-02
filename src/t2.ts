@@ -1,4 +1,5 @@
-import { here } from "traceloc";
+import { here, setProjectRoot } from "traceloc";
+setProjectRoot(__dirname);
 
 function sub() {
     let loc = here();

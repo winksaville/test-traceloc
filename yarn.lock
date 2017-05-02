@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@types/node@^7.0.15":
+  version "7.0.15"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.15.tgz#628429289604c5f7e56c13f3a0422f3e59df1a17"
+
 source-map-support@^0.4.15:
   version "0.4.15"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.15.tgz#03202df65c06d2bd8c7ec2362a193056fef8d3b1"
@@ -12,9 +16,9 @@ source-map@^0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.6.tgz#75ce38f52bf0733c5a7f0c118d81334a2bb5f412"
 
-"traceloc@https://github.com/winksaville/traceloc.git":
-  version "0.2.0"
-  resolved "https://github.com/winksaville/traceloc.git#2de7788e5ac8e4cccd99445fd2b4d09cab95d35e"
+traceloc@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/traceloc/-/traceloc-0.3.0.tgz#f40e78f3d087d9983957794a34cb50b2c332d7df"
   dependencies:
     source-map-support "^0.4.15"
 

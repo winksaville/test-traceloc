@@ -1,4 +1,6 @@
-import { here, ITraceLoc } from "traceloc";
+import { here, ITraceLoc, setProjectRoot } from "traceloc";
+
+setProjectRoot(".");
 
 let LOGGING = true;
 
