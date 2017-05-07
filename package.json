@@ -7,7 +7,7 @@
   "author": "Wink Saville <wink@saville.com> (http://github.com/winksaville)",
   "license": "MIT",
   "dependencies": {
-    "traceloc": "^0.3.0",
+    "traceloc": "^0.6.0",
     "typescript": "^2.3.2"
   },
   "devDependencies": {
